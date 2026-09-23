@@ -2,6 +2,8 @@
 
 Read this first. It explains what this repo is, how it is wired, and the rules for changing it.
 
+**Plan, status and pending work:** see [ROADMAP.md](ROADMAP.md) (what's done, what's next, why).
+
 ## What and why
 
 - **What:** a static blog at https://debug5xx.pages.dev about production errors where the logs look clean but users see 5xx (502s, 504s, timeouts).
