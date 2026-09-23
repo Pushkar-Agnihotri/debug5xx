@@ -6,8 +6,8 @@ import { defineConfig, fontProviders } from 'astro/config';
 
 // https://astro.build/config
 export default defineConfig({
-	// TODO: replace with your domain once you buy it (also update public/robots.txt).
-	site: 'https://example.com',
+	// Free Cloudflare Pages address. Change here and in public/robots.txt if you buy a domain.
+	site: 'https://debug5xx.pages.dev',
 	integrations: [mdx(), sitemap()],
 	fonts: [
 		{

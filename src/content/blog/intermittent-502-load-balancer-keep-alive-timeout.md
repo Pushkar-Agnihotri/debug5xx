@@ -69,7 +69,7 @@ I built a small lab so you can see this happen on your own machine. It runs ngin
 client --> nginx (keeps idle connections 600s) --> node / python / go
 ```
 
-You need Docker and Python 3. The code is here: [github.com/YOUR_GITHUB_USERNAME/hidden-5xx-lab](https://github.com/YOUR_GITHUB_USERNAME/hidden-5xx-lab/tree/main/keepalive-502).
+You need Docker and Python 3. The code is here: [github.com/Pushkar-Agnihotri/debug5xx-lab](https://github.com/Pushkar-Agnihotri/debug5xx-lab/tree/main/keepalive-502).
 
 ```bash
 ./run.sh bug

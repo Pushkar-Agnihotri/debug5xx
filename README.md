@@ -1,4 +1,4 @@
-# Hidden 5xx blog
+# debug5xx blog
 
 Astro static site. Posts live in `src/content/blog/`. Site settings live in `src/consts.ts`.
 
