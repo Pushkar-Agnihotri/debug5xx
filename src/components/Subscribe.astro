@@ -1,0 +1,48 @@
+---
+import { BUTTONDOWN_USER } from '../consts';
+---
+
+<aside class="subscribe">
+	<p>
+		I'm writing up more production bugs where the logs look clean but users see errors, like 502s
+		during deploys and 504s that never show up anywhere. Get them by email as they come out. No spam.
+	</p>
+	<form
+		action={`https://buttondown.com/api/emails/embed-subscribe/${BUTTONDOWN_USER}`}
+		method="post"
+		target="_blank"
+	>
+		<label for="bd-email" class="sr-only">Email</label>
+		<input type="email" name="email" id="bd-email" placeholder="you@example.com" required />
+		<button type="submit">Subscribe</button>
+	</form>
+</aside>
+
+<style>
+	.subscribe {
+		margin: 2.5em 0;
+		padding: 1.25em;
+		border: 1px solid rgb(var(--gray-light));
+		border-radius: 8px;
+		background: rgb(var(--gray-light), 30%);
+	}
+	.subscribe p {
+		margin-top: 0;
+	}
+	form {
+		display: flex;
+		gap: 0.5em;
+		flex-wrap: wrap;
+	}
+	input {
+		flex: 1;
+		min-width: 12em;
+		padding: 0.5em;
+		font: inherit;
+	}
+	button {
+		padding: 0.5em 1em;
+		font: inherit;
+		cursor: pointer;
+	}
+</style>

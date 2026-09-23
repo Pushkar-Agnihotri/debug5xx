@@ -1,0 +1,30 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Footer from '../components/Footer.astro';
+import Header from '../components/Header.astro';
+import { AUTHOR, GITHUB_URL, LAB_REPO_URL, SITE_TITLE } from '../consts';
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead title={`About | ${SITE_TITLE}`} description={`About ${AUTHOR}`} />
+	</head>
+	<body>
+		<Header />
+		<main>
+			<h1>About</h1>
+			<p>
+				I'm {AUTHOR}, a platform engineer. I work on Kubernetes, cloud load balancers, and the job
+				schedulers that run on them.
+			</p>
+			<p>
+				This blog is about the errors that are hardest to debug: the ones where every log says
+				everything is fine, but users still see a 502. Each post comes with a small lab you can run
+				on your own laptop, in the <a href={LAB_REPO_URL}>hidden-5xx-lab</a> repo.
+			</p>
+			<p>Code: <a href={GITHUB_URL}>GitHub</a></p>
+		</main>
+		<Footer />
+	</body>
+</html>
