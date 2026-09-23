@@ -11,5 +11,5 @@ export const GITHUB_USER = 'Pushkar-Agnihotri';
 export const GITHUB_URL = `https://github.com/${GITHUB_USER}`;
 export const LAB_REPO_URL = `${GITHUB_URL}/debug5xx-lab`;
 
-// TODO: your Buttondown username (https://buttondown.com).
-export const BUTTONDOWN_USER = 'YOUR_BUTTONDOWN_USERNAME';
+// Buttondown launch list (https://buttondown.com/pushkar).
+export const BUTTONDOWN_USER = 'pushkar';
