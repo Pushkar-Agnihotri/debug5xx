@@ -60,7 +60,20 @@ Nothing is drafted yet. Research-backed rules for each channel:
 | **Stack Overflow** | Answer 2–3 **existing** questions about ALB/nginx 502 + keepAliveTimeout, uvicorn keep-alive, "upstream prematurely closed connection" | The full answer must be in the body; the link is extra. Disclose that you wrote the post. Link-only answers get deleted |
 | **Lab repo** | Already has topics (load-balancer, nginx, 502, keep-alive, aws-alb, gcp, sre) | Could later be added to awesome-lists (awesome-sre, awesome-nginx) via PR |
 
-Suggested HN title: `Random 502s behind your load balancer? Check your keep-alive timeout`
+#### Hacker News, step by step
+
+Hacker News (news.ycombinator.com, run by Y Combinator) is where many senior engineers read links. A front-page post brings thousands of readers in a day, and no followers are needed. Only ~8% of submissions reach the front page, but posting is free.
+
+1. **Create an account:** news.ycombinator.com → login → Create Account. Any username is fine (it doesn't have to be the real name); email is optional.
+2. **Warm up for 2–3 days:** brand-new accounts that only post their own links can be flagged as spam. Leave 3–5 genuine, helpful comments on posts about Kubernetes, load balancers or debugging first.
+3. **Submit** at news.ycombinator.com/submit on a **weekday, 11:30 AM–5:30 PM IST (06:00–12:00 UTC)**:
+   - Title: `Random 502s behind your load balancer? Check your keep-alive timeout`
+   - URL: `https://debug5xx.pages.dev/blog/intermittent-502-load-balancer-keep-alive-timeout/`
+   - Leave the text box empty.
+4. **Stay online for 2–3 hours** and reply to comments politely. Useful corrections can go into the post as an "Update: ..." line. Don't argue, and never ask anyone to upvote (vote rings are detected and penalised).
+5. **If it gets no traction,** wait 3–4 days and submit once more at a different time. Reposting is allowed; deleting and reposting is not.
+
+Status: [ ] account created · [ ] warmed up · [ ] submitted · [ ] resubmitted if needed
 
 ### 3.3 Cross-posting (~1 week after launch)
 
@@ -181,7 +194,8 @@ Paid so far: $0.
 Tell Claude something like: *"Continue the debug5xx project. Read `~/personal/blog/ROADMAP.md` and `CLAUDE.md` first."* Then pick the first unchecked item:
 
 - [ ] 3.1 Google Request indexing + Bing sitemap (owner, browser)
-- [ ] 3.2 Draft HN, Reddit and Stack Overflow posts (Claude drafts, owner posts)
+- [ ] 3.2 Hacker News: create account, warm up 2–3 days, submit (steps in 3.2)
+- [ ] 3.2 Draft Reddit and Stack Overflow posts (Claude drafts, owner posts)
 - [ ] 3.3 dev.to and Hashnode cross-post (~2026-09-30)
 - [ ] 4 Post #2: 502s on every deploy
 - [ ] 4 Post #3
